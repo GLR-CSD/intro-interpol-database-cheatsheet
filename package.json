@@ -6,7 +6,7 @@
   "scripts": {
     "add-route": "bash ./scripts/add-route.sh",
     "dev": "vite",
-    "build": "vue-tsc && vite-ssg build",
+    "build": "vue-tsc && vite build",
     "deploy": "NODE_ENV=staging bash deploy.sh",
     "production": "NODE_ENV=production bash deploy.sh",
     "preview": "vite preview"
